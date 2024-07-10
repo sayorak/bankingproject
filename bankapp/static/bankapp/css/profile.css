@@ -1,0 +1,2898 @@
+.style-94 {
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            position: fixed;
+            left: 0px;
+            height: 100vh;
+            width: 80px;
+            top: 0px;
+            z-index: 3;
+            bottom: 0px;
+            border-radius: 0px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-95 {
+            margin: 20px;
+            text-align: center;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-96 {
+            color: rgb(47, 44, 216);
+            text-decoration: none solid rgb(47, 44, 216);
+            outline: rgb(47, 44, 216) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-97 {
+            max-width: 100%;
+            display: block;
+            filter: brightness(100);
+            outline: rgb(47, 44, 216) none 0px;
+            padding: 0px;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+
+        .style-98 {
+            margin-top: 30px;
+            padding: 20px;
+            position: relative;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-99 {
+            padding: 0px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-100 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-101 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-102 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-103 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 0.6;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-104 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-105 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-106 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-107 {
+            color: rgb(255, 255, 255);
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-108 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 1;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-109 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            color: rgb(255, 255, 255);
+            outline: rgb(255, 255, 255) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-110 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-111 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-112 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-113 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 0.6;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-114 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-115 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-116 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-117 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-118 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 0.6;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-119 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-120 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-121 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-122 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-123 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 0.6;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-124 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-125 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-126 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-127 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-128 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 0.6;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-129 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-130 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-131 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-132 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-133 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 0.6;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-134 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-135 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-136 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-137 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-138 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 0.6;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-139 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-140 {
+            margin-bottom: 8px;
+            border-radius: 6px;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-141 {
+            padding: 5px 8px;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            min-height: 56px;
+            color: rgb(113, 132, 173);
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-142 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-143 {
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            opacity: 0.6;
+            margin-right: 15px;
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-144 {
+            display: none;
+            padding: 3px 8px;
+            border-radius: 4px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-145 {
+            min-height: 792px;
+            margin-left: 80px;
+            margin-bottom: 50px;
+            margin: 0px 0px 50px 80px;
+            padding: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-146 {
+            max-width: 1320px;
+            margin: 0px 41.6px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-gutter-x: 30px;
+            --bs-gutter-y: 0;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            box-sizing: border-box;
+        }
+
+        .style-147 {
+            margin: 0px -15px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-gutter-x: 30px;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 0px;
+            margin-right: -15px;
+            margin-left: -15px;
+            box-sizing: border-box;
+        }
+
+        .style-148 {
+            margin: 0px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 0;
+            flex: 0 0 auto;
+            width: 100%;
+            flex-shrink: 0;
+            max-width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-149 {
+            margin-bottom: 30px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            border-radius: 6px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-150 {
+            margin: 0px -15px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            --bs-gutter-x: 30px;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 0px;
+            margin-right: -15px;
+            margin-left: -15px;
+            box-sizing: border-box;
+        }
+
+        .style-151 {
+            -webkit-box-flex: 0;
+            flex: 0 0 auto;
+            width: 33.3333%;
+            margin: 0px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            flex-shrink: 0;
+            max-width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-152 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-153 {
+            font-size: 24px;
+            margin-bottom: 0px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-154 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            margin-bottom: 8px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-155 {
+            margin: 0px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 0;
+            flex: 0 0 auto;
+            width: auto;
+            flex-shrink: 0;
+            max-width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-156 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-157 {
+            color: rgb(113, 132, 173);
+            display: inline-block;
+            font-size: 14px;
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-158 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-159 {
+            margin: 0px 10px;
+            font-size: 20px;
+            line-height: 0px;
+            position: relative;
+            top: 5px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-160 {
+            color: rgb(113, 132, 173);
+            display: inline-block;
+            font-size: 14px;
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-161 {
+            margin: 0px -15px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-gutter-x: 30px;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 0px;
+            margin-right: -15px;
+            margin-left: -15px;
+            box-sizing: border-box;
+        }
+
+        .style-162 {
+            -webkit-box-flex: 0;
+            flex: 0 0 auto;
+            width: 33.3333%;
+            margin: 0px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            flex-shrink: 0;
+            max-width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-163 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: 506.8px;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-164 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-165 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-166 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-167 {
+            margin-right: 20px;
+            border-radius: 100px;
+            max-width: 60px;
+            display: block;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+
+        .style-168 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex-grow: 1;
+            box-sizing: border-box;
+        }
+
+        .style-169 {
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-bottom: 0px;
+            font-size: 18px;
+            margin-top: 0px;
+            font-weight: 500;
+            line-height: 28.8px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-170 {
+            margin-bottom: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-171 {
+            display: flex;
+            padding: 20px 0px;
+            text-align: center;
+            position: relative;
+            border-bottom: 0.8px solid rgba(208, 208, 230, 0.3);
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-172 {
+            width: 50%;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-173 {
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 25.6px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-174 {
+            margin: 0px;
+            color: rgb(174, 174, 213);
+            outline: rgb(174, 174, 213) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-175 {
+            position: absolute;
+            width: 2px;
+            height: 50px;
+            background: rgb(241, 241, 248) none repeat scroll 0% 0% / auto padding-box border-box;
+            left: 0px;
+            right: 0px;
+            text-align: center;
+            margin: 0px auto;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-176 {
+            width: 50%;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-177 {
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 25.6px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-178 {
+            margin: 0px;
+            color: rgb(174, 174, 213);
+            outline: rgb(174, 174, 213) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-179 {
+            padding: 15px 0px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-180 {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            border-bottom: 0px none rgb(113, 132, 173);
+            padding: 0px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-nav-tabs-border-width: 1px;
+            --bs-nav-tabs-border-color: rgb(229, 234, 239);
+            --bs-nav-tabs-border-radius: 6px;
+            --bs-nav-tabs-link-hover-border-color: rgb(229, 231, 235) rgb(229, 231, 235) rgb(229, 234, 239);
+            --bs-nav-tabs-link-active-color: #000;
+            --bs-nav-tabs-link-active-bg: #F6F9FC;
+            --bs-nav-tabs-link-active-border-color: rgb(229, 234, 239) rgb(229, 234, 239) #F6F9FC;
+            --bs-nav-link-padding-x: 1rem;
+            --bs-nav-link-padding-y: 0.5rem;
+            --bs-nav-link-font-weight: ;
+            --bs-nav-link-color: #2F2CD8;
+            --bs-nav-link-hover-color: #2623ad;
+            --bs-nav-link-disabled-color: rgba(113, 132, 173, 0.75);
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0px;
+            margin-bottom: 0px;
+            list-style: outside none none;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-181 {
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-182 {
+            color: rgb(47, 44, 216);
+            display: block;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            transition: all 0.3s ease-in-out 0s;
+            text-decoration: none solid rgb(47, 44, 216);
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-183 {
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            margin-right: 20px;
+            transition: all 0.3s ease-in-out 0s;
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            position: relative;
+            top: 5px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-184 {
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-185 {
+            outline: rgb(47, 44, 216) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-186 {
+            transform: matrix(1, 0, 0, 1, 0, 0);
+            color: rgb(47, 44, 216);
+            position: absolute;
+            right: 0px;
+            font-weight: 700;
+            top: 25px;
+            transition: all 0.3s ease-in-out 0s;
+            line-height: 0px;
+            outline: rgb(47, 44, 216) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-187 {
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-188 {
+            display: block;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            transition: all 0.3s ease-in-out 0s;
+            color: rgb(47, 44, 216);
+            text-decoration: none solid rgb(47, 44, 216);
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-189 {
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            margin-right: 20px;
+            transition: all 0.3s ease-in-out 0s;
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            position: relative;
+            top: 5px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-190 {
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-191 {
+            outline: rgb(47, 44, 216) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-192 {
+            position: absolute;
+            right: 0px;
+            font-weight: 700;
+            color: rgb(208, 208, 230);
+            top: 25px;
+            transition: all 0.3s ease-in-out 0s;
+            transform: matrix(-1, 0, 0, -1, 0, 0);
+            line-height: 0px;
+            outline: rgb(208, 208, 230) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-193 {
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-194 {
+            display: block;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            transition: all 0.3s ease-in-out 0s;
+            color: rgb(47, 44, 216);
+            text-decoration: none solid rgb(47, 44, 216);
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-195 {
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            margin-right: 20px;
+            transition: all 0.3s ease-in-out 0s;
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            position: relative;
+            top: 5px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-196 {
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-197 {
+            outline: rgb(47, 44, 216) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-198 {
+            position: absolute;
+            right: 0px;
+            font-weight: 700;
+            color: rgb(208, 208, 230);
+            top: 25px;
+            transition: all 0.3s ease-in-out 0s;
+            transform: matrix(-1, 0, 0, -1, 0, 0);
+            line-height: 0px;
+            outline: rgb(208, 208, 230) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-199 {
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-200 {
+            display: block;
+            padding: 15px 0px;
+            font-size: 18px;
+            font-weight: 500;
+            position: relative;
+            transition: all 0.3s ease-in-out 0s;
+            color: rgb(47, 44, 216);
+            text-decoration: none solid rgb(47, 44, 216);
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-201 {
+            height: 40px;
+            width: 40px;
+            border-radius: 100px;
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            margin-right: 20px;
+            transition: all 0.3s ease-in-out 0s;
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            position: relative;
+            top: 5px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-202 {
+            line-height: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-203 {
+            outline: rgb(47, 44, 216) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-204 {
+            position: absolute;
+            right: 0px;
+            font-weight: 700;
+            color: rgb(208, 208, 230);
+            top: 25px;
+            transition: all 0.3s ease-in-out 0s;
+            transform: matrix(-1, 0, 0, -1, 0, 0);
+            line-height: 0px;
+            outline: rgb(208, 208, 230) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-205 {
+            -webkit-box-flex: 0;
+            flex: 0 0 auto;
+            width: 66.6667%;
+            margin: 0px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            flex-shrink: 0;
+            max-width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-206 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-207 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: block;
+            transition: opacity 0.15s linear 0s;
+            box-sizing: border-box;
+        }
+
+        .style-208 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: 147.2px;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-209 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-210 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-211 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-212 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-213 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-214 {
+            font-size: 24px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-215 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            text-align: right;
+            box-sizing: border-box;
+        }
+
+        .style-216 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-217 {
+            font-size: 24px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-218 {
+            height: 8px;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-progress-height: 1rem;
+            --bs-progress-font-size: 0.65625rem;
+            --bs-progress-bg: rgb(229, 231, 235);
+            --bs-progress-border-radius: 6px;
+            --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+            --bs-progress-bar-color: #fff;
+            --bs-progress-bar-bg: #2F2CD8;
+            --bs-progress-bar-transition: width 0.6s ease;
+            display: flex;
+            overflow: hidden;
+            font-size: 10.5px;
+            background-color: rgb(229, 231, 235);
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .style-219 {
+            width: 25%;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            overflow: hidden;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            white-space: nowrap;
+            background-color: rgb(47, 44, 216);
+            transition: width 0.6s ease 0s;
+            box-sizing: border-box;
+        }
+
+        .style-220 {
+            margin: 8px 0px 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            margin-top: 8px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-221 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-222 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-223 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: 333.8px;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-224 {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+            border-bottom: 0px solid rgb(229, 234, 239);
+            background-color: rgba(0, 0, 0, 0);
+            padding: 20px 20px 0px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            border-radius: 5px 5px 0px 0px;
+            margin-bottom: 0px;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-225 {
+            font-size: 18px;
+            margin-bottom: 0px;
+            color: rgb(31, 44, 115);
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            font-weight: 500;
+            line-height: 28.8px;
+            box-sizing: border-box;
+        }
+
+        .style-226 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: block;
+            --bs-nav-link-padding-x: 1rem;
+            --bs-nav-link-padding-y: 0.5rem;
+            --bs-nav-link-font-weight: ;
+            --bs-nav-link-color: #2F2CD8;
+            --bs-nav-link-hover-color: #2623ad;
+            --bs-nav-link-disabled-color: rgba(113, 132, 173, 0.75);
+            flex-wrap: wrap;
+            padding-left: 0px;
+            margin-bottom: 0px;
+            list-style: outside none none;
+            box-sizing: border-box;
+        }
+
+        .style-227 {
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            outline: rgb(255, 255, 255) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-228 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-229 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-230 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-231 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-232 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+            position: absolute;
+            direction: ltr;
+            inset: 0px;
+            overflow: hidden;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: -1;
+        }
+
+        .style-233 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+            position: absolute;
+            direction: ltr;
+            inset: 0px;
+            overflow: hidden;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: -1;
+        }
+
+        .style-234 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 1e+06px;
+            height: 1e+06px;
+            left: 0px;
+            top: 0px;
+        }
+
+        .style-235 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+            position: absolute;
+            direction: ltr;
+            inset: 0px;
+            overflow: hidden;
+            pointer-events: none;
+            visibility: hidden;
+            z-index: -1;
+        }
+
+        .style-236 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+            position: absolute;
+            width: 200%;
+            height: 667.6px;
+            left: 0px;
+            top: 0px;
+        }
+
+        .style-237 {
+            display: block;
+            height: 245px;
+            width: 810px;
+            height: 245px;
+            width: 810px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            animation: 0.001s ease 0s 1 normal none running chartjs-render-animation;
+        }
+
+        .style-238 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.15s linear 0s;
+            box-sizing: border-box;
+        }
+
+        .style-239 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: auto;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-240 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-241 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-242 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-243 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-244 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-245 {
+            font-size: 24px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-246 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            text-align: right;
+            box-sizing: border-box;
+        }
+
+        .style-247 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-248 {
+            font-size: 24px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-249 {
+            height: 8px;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-progress-height: 1rem;
+            --bs-progress-font-size: 0.65625rem;
+            --bs-progress-bg: rgb(229, 231, 235);
+            --bs-progress-border-radius: 6px;
+            --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+            --bs-progress-bar-color: #fff;
+            --bs-progress-bar-bg: #2F2CD8;
+            --bs-progress-bar-transition: width 0.6s ease;
+            display: flex;
+            overflow: hidden;
+            font-size: 10.5px;
+            background-color: rgb(229, 231, 235);
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .style-250 {
+            width: 25%;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            overflow: hidden;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            white-space: nowrap;
+            background-color: rgb(47, 44, 216);
+            transition: width 0.6s ease 0s;
+            box-sizing: border-box;
+        }
+
+        .style-251 {
+            margin: 8px 0px 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            margin-top: 8px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-252 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-253 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-254 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: auto;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-255 {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+            border-bottom: 0px solid rgb(229, 234, 239);
+            background-color: rgba(0, 0, 0, 0);
+            padding: 20px 20px 0px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            border-radius: 5px 5px 0px 0px;
+            margin-bottom: 0px;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-256 {
+            font-size: 18px;
+            margin-bottom: 0px;
+            color: rgb(31, 44, 115);
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            font-weight: 500;
+            line-height: 28.8px;
+            box-sizing: border-box;
+        }
+
+        .style-257 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: block;
+            --bs-nav-link-padding-x: 1rem;
+            --bs-nav-link-padding-y: 0.5rem;
+            --bs-nav-link-font-weight: ;
+            --bs-nav-link-color: #2F2CD8;
+            --bs-nav-link-hover-color: #2623ad;
+            --bs-nav-link-disabled-color: rgba(113, 132, 173, 0.75);
+            flex-wrap: wrap;
+            padding-left: 0px;
+            margin-bottom: 0px;
+            list-style: outside none none;
+            box-sizing: border-box;
+        }
+
+        .style-258 {
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            outline: rgb(255, 255, 255) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-259 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-260 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-261 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-262 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-263 {
+            display: block;
+            height: 0px;
+            width: 0px;
+            height: 245px;
+            width: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            animation: 0.001s ease 0s 1 normal none running chartjs-render-animation;
+        }
+
+        .style-264 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.15s linear 0s;
+            box-sizing: border-box;
+        }
+
+        .style-265 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: auto;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-266 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-267 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-268 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-269 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-270 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-271 {
+            font-size: 24px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-272 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            text-align: right;
+            box-sizing: border-box;
+        }
+
+        .style-273 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-274 {
+            font-size: 24px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-275 {
+            height: 8px;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-progress-height: 1rem;
+            --bs-progress-font-size: 0.65625rem;
+            --bs-progress-bg: rgb(229, 231, 235);
+            --bs-progress-border-radius: 6px;
+            --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+            --bs-progress-bar-color: #fff;
+            --bs-progress-bar-bg: #2F2CD8;
+            --bs-progress-bar-transition: width 0.6s ease;
+            display: flex;
+            overflow: hidden;
+            font-size: 10.5px;
+            background-color: rgb(229, 231, 235);
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .style-276 {
+            width: 25%;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            overflow: hidden;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            white-space: nowrap;
+            background-color: rgb(47, 44, 216);
+            transition: width 0.6s ease 0s;
+            box-sizing: border-box;
+        }
+
+        .style-277 {
+            margin: 8px 0px 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            margin-top: 8px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-278 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-279 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-280 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: auto;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-281 {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+            border-bottom: 0px solid rgb(229, 234, 239);
+            background-color: rgba(0, 0, 0, 0);
+            padding: 20px 20px 0px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            border-radius: 5px 5px 0px 0px;
+            margin-bottom: 0px;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-282 {
+            font-size: 18px;
+            margin-bottom: 0px;
+            color: rgb(31, 44, 115);
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            font-weight: 500;
+            line-height: 28.8px;
+            box-sizing: border-box;
+        }
+
+        .style-283 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: block;
+            --bs-nav-link-padding-x: 1rem;
+            --bs-nav-link-padding-y: 0.5rem;
+            --bs-nav-link-font-weight: ;
+            --bs-nav-link-color: #2F2CD8;
+            --bs-nav-link-hover-color: #2623ad;
+            --bs-nav-link-disabled-color: rgba(113, 132, 173, 0.75);
+            flex-wrap: wrap;
+            padding-left: 0px;
+            margin-bottom: 0px;
+            list-style: outside none none;
+            box-sizing: border-box;
+        }
+
+        .style-284 {
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            outline: rgb(255, 255, 255) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-285 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-286 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-287 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-288 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-289 {
+            display: block;
+            height: 0px;
+            width: 0px;
+            height: 245px;
+            width: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            animation: 0.001s ease 0s 1 normal none running chartjs-render-animation;
+        }
+
+        .style-290 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: none;
+            opacity: 0;
+            transition: opacity 0.15s linear 0s;
+            box-sizing: border-box;
+        }
+
+        .style-291 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: auto;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-292 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-293 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-294 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-295 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-296 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-297 {
+            font-size: 24px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-298 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            text-align: right;
+            box-sizing: border-box;
+        }
+
+        .style-299 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-300 {
+            font-size: 24px;
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 8px;
+            font-weight: 500;
+            line-height: 38.4px;
+            color: rgb(31, 44, 115);
+            box-sizing: border-box;
+        }
+
+        .style-301 {
+            height: 8px;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-progress-height: 1rem;
+            --bs-progress-font-size: 0.65625rem;
+            --bs-progress-bg: rgb(229, 231, 235);
+            --bs-progress-border-radius: 6px;
+            --bs-progress-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+            --bs-progress-bar-color: #fff;
+            --bs-progress-bar-bg: #2F2CD8;
+            --bs-progress-bar-transition: width 0.6s ease;
+            display: flex;
+            overflow: hidden;
+            font-size: 10.5px;
+            background-color: rgb(229, 231, 235);
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        .style-302 {
+            width: 25%;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(255, 255, 255) none 0px;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            justify-content: center;
+            overflow: hidden;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            white-space: nowrap;
+            background-color: rgb(47, 44, 216);
+            transition: width 0.6s ease 0s;
+            box-sizing: border-box;
+        }
+
+        .style-303 {
+            margin: 8px 0px 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            margin-top: 8px;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        .style-304 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-305 {
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-306 {
+            border: 0px solid rgb(229, 234, 239);
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 0px 30px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-card-spacer-y: 1rem;
+            --bs-card-spacer-x: 1rem;
+            --bs-card-title-spacer-y: 0.5rem;
+            --bs-card-title-color: ;
+            --bs-card-subtitle-color: ;
+            --bs-card-border-width: 1px;
+            --bs-card-border-color: rgba(0, 0, 0, 0.175);
+            --bs-card-border-radius: 6px;
+            --bs-card-box-shadow: ;
+            --bs-card-inner-border-radius: calc(6px - (1px));
+            --bs-card-cap-padding-y: 0.5rem;
+            --bs-card-cap-padding-x: 1rem;
+            --bs-card-cap-bg: rgba(113, 132, 173, 0.03);
+            --bs-card-cap-color: ;
+            --bs-card-height: ;
+            --bs-card-color: ;
+            --bs-card-bg: #F6F9FC;
+            --bs-card-img-overlay-padding: 1rem;
+            --bs-card-group-margin: 15px;
+            position: relative;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+            min-width: 0px;
+            height: auto;
+            color: rgb(113, 132, 173);
+            overflow-wrap: break-word;
+            -webkit-background-clip: border-box;
+            box-sizing: border-box;
+            -webkit-background-clip: border-box;
+        }
+
+        .style-307 {
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+            border-bottom: 0px solid rgb(229, 234, 239);
+            background-color: rgba(0, 0, 0, 0);
+            padding: 20px 20px 0px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            border-radius: 5px 5px 0px 0px;
+            margin-bottom: 0px;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-308 {
+            font-size: 18px;
+            margin-bottom: 0px;
+            color: rgb(31, 44, 115);
+            outline: rgb(31, 44, 115) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            font-weight: 500;
+            line-height: 28.8px;
+            box-sizing: border-box;
+        }
+
+        .style-309 {
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            display: block;
+            --bs-nav-link-padding-x: 1rem;
+            --bs-nav-link-padding-y: 0.5rem;
+            --bs-nav-link-font-weight: ;
+            --bs-nav-link-color: #2F2CD8;
+            --bs-nav-link-hover-color: #2623ad;
+            --bs-nav-link-disabled-color: rgba(113, 132, 173, 0.75);
+            flex-wrap: wrap;
+            padding-left: 0px;
+            margin-bottom: 0px;
+            list-style: outside none none;
+            box-sizing: border-box;
+        }
+
+        .style-310 {
+            background: rgb(47, 44, 216) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            outline: rgb(255, 255, 255) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-311 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-312 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-313 {
+            padding: 5px 10px;
+            margin-left: 10px;
+            border-radius: 6px;
+            background: rgb(225, 225, 249) none repeat scroll 0% 0% / auto padding-box border-box;
+            color: rgb(47, 44, 216);
+            cursor: pointer;
+            outline: rgb(47, 44, 216) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-314 {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            -webkit-box-flex: 1;
+            flex: 1 1 auto;
+            color: rgb(113, 132, 173);
+            box-sizing: border-box;
+        }
+
+        .style-315 {
+            display: block;
+            height: 0px;
+            width: 0px;
+            height: 245px;
+            width: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            animation: 0.001s ease 0s 1 normal none running chartjs-render-animation;
+        }
+
+        .style-316 {
+            background: rgb(246, 249, 252) none repeat scroll 0% 0% / auto padding-box border-box;
+            padding: 20px 0px;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            left: 80px;
+            border-radius: 6px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-317 {
+            max-width: 1320px;
+            margin: 0px 41.6px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-gutter-x: 30px;
+            --bs-gutter-y: 0;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            box-sizing: border-box;
+        }
+
+        .style-318 {
+            margin: 0px -15px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            --bs-gutter-x: 30px;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 0px;
+            margin-right: -15px;
+            margin-left: -15px;
+            box-sizing: border-box;
+        }
+
+        .style-319 {
+            -webkit-box-flex: 0;
+            flex: 0 0 auto;
+            width: 50%;
+            margin: 0px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            flex-shrink: 0;
+            max-width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-320 {
+            position: relative;
+            text-align: left;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-321 {
+            margin: 0px;
+            font-size: 14px;
+            color: rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-322 {
+            color: rgb(47, 44, 216);
+            font-weight: 700;
+            text-decoration: none solid rgb(47, 44, 216);
+            outline: rgb(47, 44, 216) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-323 {
+            -webkit-box-flex: 0;
+            flex: 0 0 auto;
+            width: 50%;
+            margin: 0px;
+            padding: 0px 15px;
+            outline: rgb(113, 132, 173) none 0px;
+            flex-shrink: 0;
+            max-width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-324 {
+            text-align: right;
+            margin: 0px;
+            padding: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-325 {
+            padding: 0px;
+            margin: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-326 {
+            display: inline-block;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-327 {
+            color: rgb(113, 132, 173);
+            padding: 0px 10px;
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-328 {
+            line-height: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-329 {
+            display: inline-block;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-330 {
+            color: rgb(113, 132, 173);
+            padding: 0px 10px;
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-331 {
+            line-height: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-332 {
+            display: inline-block;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-333 {
+            color: rgb(113, 132, 173);
+            padding: 0px 10px;
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-334 {
+            line-height: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-335 {
+            display: inline-block;
+            list-style: outside none none;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .style-336 {
+            color: rgb(113, 132, 173);
+            padding: 0px 10px;
+            text-decoration: none solid rgb(113, 132, 173);
+            outline: rgb(113, 132, 173) none 0px;
+            box-sizing: border-box;
+        }
+
+        .style-337 {
+            line-height: 0px;
+            outline: rgb(113, 132, 173) none 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }

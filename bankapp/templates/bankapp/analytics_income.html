@@ -1,0 +1,265 @@
+{% extends "base.html" %}
+
+{% block title %}Аналитика доходов{% endblock %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'bankapp/css/analytics_income.css' %}">
+<div class="style-8">
+    <div class="style-145">
+        <div class="style-146">
+            <div class="style-147">
+                <div class="style-148">
+                    <div class="style-149">
+                        <div class="style-150">
+                            <div class="style-151">
+                                <div class="style-152">
+                                    <h3 class="style-153">Доходы</h3>
+                                    <p class="style-154">Добро пожаловать в Almau Finance Management</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-161">
+                    <div class="style-162">
+                        <div class="style-163">
+                            <a href="/analytics" class="style-164">Аналитика</a> <a href="/analytics-expenses" class="style-165">Расходы</a> <a href="/analytics-income" class="style-166">Доходы</a> <a href="/analytics-transaction-history" class="style-169">История транзакций</a>
+                        </div>
+                        <div class="style-170">
+                            <div class="style-171">
+                                <div class="style-172">
+                                    <div class="style-173">
+                                        <h4 class="style-174">Разбивка доходов</h4>
+                                    </div>
+                                    <div class="style-175">
+                                        <canvas width="500" height="250" class="style-176"></canvas>
+                                        <div class="style-177">
+                                            <ul class="style-178">
+                                                <li class="style-179">
+                                                    <p class="style-180">Еда</p>
+                                                    <h5 class="style-181"><span class="style-182">$1200</span>38%</h5>
+                                                </li>
+                                                <li class="style-183">
+                                                    <p class="style-184">Транспорт</p>
+                                                    <h5 class="style-185"><span class="style-186">$1200</span>38%</h5>
+                                                </li>
+                                                <li class="style-187">
+                                                    <p class="style-188">Здравоохранение</p>
+                                                    <h5 class="style-189"><span class="style-190">$1200</span>38%</h5>
+                                                </li>
+                                                <li class="style-191">
+                                                    <p class="style-192">Образование</p>
+                                                    <h5 class="style-193"><span class="style-194">$1200</span>38%</h5>
+                                                </li>
+                                                <li class="style-195">
+                                                    <p class="style-196">Одежда</p>
+                                                    <h5 class="style-197"><span class="style-198">$1200</span>38%</h5>
+                                                </li>
+                                                <li class="style-199">
+                                                    <p class="style-200">Домашние животные</p>
+                                                    <h5 class="style-201"><span class="style-202">$1200</span>38%</h5>
+                                                </li>
+                                                <li class="style-203">
+                                                    <p class="style-204">Развлечения</p>
+                                                    <h5 class="style-205"><span class="style-206">$1200</span>38%</h5>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="style-207">
+                                <div class="style-208">
+                                    <div class="style-209">
+                                        <h4 class="style-210">История транзакций</h4>
+                                    </div>
+                                    <div class="style-211">
+                                        <div class="style-212">
+                                            <div class="style-213">
+                                                <table class="style-214">
+                                                    <thead class="style-215">
+                                                        <tr class="style-216">
+                                                            <th class="style-217">Категория</th>
+                                                            <th class="style-218">Дата</th>
+                                                            <th class="style-219">Описание</th>
+                                                            <th class="style-220">Сумма</th>
+                                                            <th class="style-221">Валюта</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody class="style-222">
+                                                        <tr class="style-223">
+                                                            <td class="style-224">
+                                                                <span class="style-225"><i class="style-226"></i>
+                                                                    Красота</span>
+                                                            </td>
+                                                            <td class="style-227">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-228">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-229">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-230">USD</td>
+                                                        </tr>
+                                                        <tr class="style-231">
+                                                            <td class="style-232">
+                                                                <span class="style-233"><i class="style-234"></i> Счета и
+                                                                    сборы</span>
+                                                            </td>
+                                                            <td class="style-235">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-236">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-237">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-238">USD</td>
+                                                        </tr>
+                                                        <tr class="style-239">
+                                                            <td class="style-240">
+                                                                <span class="style-241"><i class="style-242"></i>
+                                                                    Автомобиль</span>
+                                                            </td>
+                                                            <td class="style-243">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-244">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-245">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-246">USD</td>
+                                                        </tr>
+                                                        <tr class="style-247">
+                                                            <td class="style-248">
+                                                                <span class="style-249"><i class="style-250"></i>
+                                                                    Образование</span>
+                                                            </td>
+                                                            <td class="style-251">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-252">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-253">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-254">USD</td>
+                                                        </tr>
+                                                        <tr class="style-255">
+                                                            <td class="style-256">
+                                                                <span class="style-257"><i class="style-258"></i>
+                                                                    Развлечения</span>
+                                                            </td>
+                                                            <td class="style-259">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-260">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-261">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-262">USD</td>
+                                                        </tr>
+                                                        <tr class="style-263">
+                                                            <td class="style-264">
+                                                                <span class="style-265"><i class="style-266"></i>
+                                                                    Красота</span>
+                                                            </td>
+                                                            <td class="style-267">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-268">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-269">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-270">USD</td>
+                                                        </tr>
+                                                        <tr class="style-271">
+                                                            <td class="style-272">
+                                                                <span class="style-273"><i class="style-274"></i> Счета и
+                                                                    сборы</span>
+                                                            </td>
+                                                            <td class="style-275">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-276">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-277">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-278">USD</td>
+                                                        </tr>
+                                                        <tr class="style-279">
+                                                            <td class="style-280">
+                                                                <span class="style-281"><i class="style-282"></i>
+                                                                    Автомобиль</span>
+                                                            </td>
+                                                            <td class="style-283">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-284">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-285">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-286">USD</td>
+                                                        </tr>
+                                                        <tr class="style-287">
+                                                            <td class="style-288">
+                                                                <span class="style-289"><i class="style-290"></i>
+                                                                    Образование</span>
+                                                            </td>
+                                                            <td class="style-291">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-292">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-293">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-294">USD</td>
+                                                        </tr>
+                                                        <tr class="style-295">
+                                                            <td class="style-296">
+                                                                <span class="style-297"><i class="style-298"></i>
+                                                                    Развлечения</span>
+                                                            </td>
+                                                            <td class="style-299">
+                                                                12.12.2023
+                                                            </td>
+                                                            <td class="style-300">
+                                                                Продукты и напитки безалкогольные
+                                                            </td>
+                                                            <td class="style-301">
+                                                                -32.20
+                                                            </td>
+                                                            <td class="style-302">USD</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--  -->
+</div>
+{% endblock %}

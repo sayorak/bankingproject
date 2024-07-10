@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'accounts/css/login.css' %}">
+</head>
+
+<body class="style-0">
+    <div class="style-1">
+        <div class="style-2">
+            <div class="style-3"></div>
+            <div class="style-4"></div>
+            <div class="style-5"></div>
+            <div class="style-6"></div>
+            <div class="style-7"></div>
+        </div>
+    </div>
+    <div class="style-8">
+        <div class="style-9">
+            <div class="style-10">
+                <div class="style-11">
+                    <div class="style-12">
+                        <div class="style-13">
+                            <div class="style-14">
+                                <div class="overlay"></div> <!-- New overlay block -->
+                                <div class="style-15">
+                                    <div class="style-16">
+                                        <a href="{% url 'wallets' %}" class="style-17">
+                                            <img src="{% static 'accounts/images/logo-white.png' %}" alt="" width="30" class="style-18" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-39">
+                            <div class="style-40">
+                                <h4 class="style-41">Вход</h4>
+                                <form method="post" class="style-42">
+                                    {% csrf_token %}
+                                    <div class="style-43">
+                                        <div class="style-44">
+                                            <label class="style-45">Имя пользователя</label>
+                                            {{ form.username }}
+                                            {% if form.username.errors %}
+                                                <div class="error">{{ form.username.errors }}</div>
+                                            {% endif %}
+                                        </div>
+                                        <div class="style-47">
+                                            <label class="style-48">Пароль</label>
+                                            {{ form.password }}
+                                            {% if form.password.errors %}
+                                                <div class="error">{{ form.password.errors }}</div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    <div class="style-56"><button type="submit" class="style-57">Войти</button></div>
+                                </form>
+                                <p class="style-58">Нет аккаунта?<a class="style-59" href="{% url 'register' %}"> Зарегистрируйтесь</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

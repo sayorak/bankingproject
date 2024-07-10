@@ -1,0 +1,283 @@
+{% extends "base.html" %}
+
+{% block title %}Кошельки{% endblock %}
+
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'bankapp/css/wallets.css' %}">
+<div class="style-8">
+    <div class="style-145">
+        <div class="style-146">
+            <div class="style-147">
+                <div class="style-148">
+                    <div class="style-149">
+                        <div class="style-150">
+                            <div class="style-151">
+                                <div class="style-152">
+                                    <h3 class="style-153">Кошельки</h3>
+                                    <p class="style-154">Добро пожаловать в Almau Finance Management</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-161">
+                    <div class="style-162">
+                        <div class="style-163">
+                            <div class="style-164" role="tablist">
+                                <div class="style-165">
+                                    {% for account in accounts %}
+                                        <div class="style-166" data-account-id="{{ account.account_id }}">
+                                            <div class="style-167" data-bs-toggle="pill" data-bs-target="#a{{ forloop.counter }}" aria-selected="true" role="tab">
+                                                <div class="style-168">
+                                                    <span class="style-169"><i class="material-icons">credit_card</i></span>
+                                                </div>
+                                                <div class="style-171">
+                                                    <h3 class="style-172">{% if account.card_number %}*{{ account.formatted_card_number|slice:"-4:" }}{% endif %}</h3>
+                                                    <p class="style-173">{{ account.current_balance }} {{ account.currency }}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-202">
+                            <div class="style-203">
+                                <div class="style-204" role="tabpanel">
+                                    <div class="style-205">
+                                        <h3 class="style-206">Счет из API</h3>
+                                    </div>
+                                    <div class="style-207">
+                                        <div class="style-208">
+                                            <div class="style-209">
+                                                <div class="style-210">
+                                                    <div class="style-211">
+                                                        <p class="style-212">Текущий баланс</p>
+                                                        <h2 class="style-213" id="total-balance">$0.00</h2>
+                                                    </div>
+                                                    <div class="style-214">
+                                                    </div>
+                                                    <div class="style-217">
+                                                        <p class="style-218">Кредитные лимиты</p>
+                                                        <h5 class="style-219" id="credit-limit">$0.00</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Дополнительная информация о карте и счетах -->
+                                        <div class="style-220">
+                                            <div class="style-221">
+                                                <div class="style-222">
+                                                    <h4 class="style-223">Дебетовая карта</h4>
+                                                    <img src="{% static 'bankapp/images/visa.png' %}" alt="" class="style-224" />
+                                                </div>
+                                                <div class="style-225">
+                                                    <h6 class="style-226" id="card-number">1234 5678 7890 9875</h6>
+                                                </div>
+                                                <div class="style-230">
+                                                    <h5 class="style-231">Фамилия Имя</h5>
+                                                    <div class="style-232">
+                                                        <span class="style-233">Срок:</span>
+                                                        <strong class="style-234" id="expiry-date">12/21</strong>
+                                                    </div>
+                                                </div>
+                                                <div class="style-235">
+                                                    <div class="style-236">
+                                                        <div class="style-237">
+                                                            <div class="style-238">
+                                                                <p class="style-239">Статус</p>
+                                                                <p class="style-240"><strong class="style-241">Активен</strong></p>
+                                                            </div>
+                                                            <div class="style-242">
+                                                                <p class="style-243">Валюта</p>
+                                                                <p class="style-244"><strong class="style-245" id="currency">USD</strong></p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="style-246">
+                                                            <div class="style-247">
+                                                                <div class="style-248">
+                                                                    <p class="style-249">Кредитный лимит</p>
+                                                                    <p class="style-250">
+                                                                        <strong class="style-251" id="credit-amount">$0.00</strong>
+                                                                    </p>
+                                                                </div>
+                                                                <div class="style-252"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Дополнительные блоки -->
+                                        <div class="style-253">
+                                            <div class="style-254">
+                                                <h6 class="style-255">Доступные средства</h6>
+                                                <h3 class="style-256" id="available-balance">$0.00</h3>
+                                            </div>
+                                        </div>
+                                        <div class="style-261">
+                                            <div class="style-262">
+                                                <h6 class="style-263">Блокированные средства</h6>
+                                                <h3 class="style-264" id="blocked-balance">$0.00</h3>
+                                            </div>
+                                        </div>
+                                        <div class="style-285">
+                                            <div class="style-286">
+                                                <div class="style-287">
+                                                    <h4 class="style-288">История транзакций</h4>
+                                                </div>
+                                                <div class="style-289">
+                                                    <div class="style-290">
+                                                        <!-- Фильтр категорий -->
+                                                        <div class="style-291">
+                                                            <table class="style-292">
+                                                                <thead class="style-293">
+                                                                    <tr class="style-294">
+                                                                        <th class="style-295" id="category-header" style="cursor: pointer;">Категория</th>
+                                                                        <th class="style-296">Дата</th>
+                                                                        <th class="style-297">Описание</th>
+                                                                        <th class="style-298">Сумма</th>
+                                                                        <th class="style-299">Валюта</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody class="style-300" id="transaction-list">
+                                                                    <!-- Здесь будут транзакции -->
+                                                                </tbody>
+                                                            </table>
+                                                            <div id="category-dropdown" class="category-dropdown">
+                                                                <label><input type="checkbox" name="category" value="INCOME" class="transaction-category"> Пополнение</label><br>
+                                                                <label><input type="checkbox" name="category" value="WITHDRAWAL" class="transaction-category"> Снятие</label><br>
+                                                                <label><input type="checkbox" name="category" value="TRANSFER" class="transaction-category"> Перевод</label><br>
+                                                                <label><input type="checkbox" name="category" value="PURCHASE" class="transaction-category"> Покупка</label><br>
+                                                                <label><input type="checkbox" name="category" value="E_COMMERCE" class="transaction-category"> Интернет покупка</label><br>
+                                                                <label><input type="checkbox" name="category" value="PAYMENT" class="transaction-category"> Платеж</label><br>
+                                                                <label><input type="checkbox" name="category" value="BONUS" class="transaction-category"> Бонус/кэшбек</label><br>
+                                                                <label><input type="checkbox" name="category" value="OTHER" class="transaction-category"> Прочие операции</label><br>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.style-166').click(function(){
+            var accountId = $(this).data('account-id');
+            $('.style-166').removeClass('active');
+            $(this).addClass('active');
+            fetchAccountData(accountId);
+            fetchTransactions(accountId);
+        });
+
+        $('#category-header').click(function(){
+            $('#category-dropdown').toggle();
+        });
+
+        $(document).on('change', '.transaction-category', function(){
+            var accountId = $('.style-166.active').data('account-id');
+            fetchTransactions(accountId);
+        });
+
+        $(document).click(function(event) {
+            if (!$(event.target).closest('#category-header, #category-dropdown').length) {
+                $('#category-dropdown').hide();
+            }
+        });
+
+        function fetchAccountData(accountId) {
+            $.ajax({
+                url: `/get_account_data/${accountId}/`,
+                method: 'GET',
+                success: function(response) {
+                    if (response && response.data) {
+                        var data = response.data;
+                        $('#total-balance').text((data.current_balance || 0) + ' ' + (data.currency || 'USD'));
+                        $('#available-balance').text((data.available_balance || 0) + ' ' + (data.currency || 'USD'));
+                        $('#credit-limit').text((data.credit_amount || 0) + ' ' + (data.currency || 'USD'));
+                        $('#currency').text(data.currency || 'USD');
+                        $('#credit-amount').text((data.credit_amount || 0) + ' ' + (data.currency || 'USD'));
+                        $('#blocked-balance').text((data.blocked_balance || 0) + ' ' + (data.currency || 'USD'));
+
+                        $('#card-number').text(data.card_number);
+                        $('#expiry-date').text(data.card_expiry_date);
+                    } else {
+                        console.error('No data found in response:', response);
+                    }
+                },
+                error: function(error) {
+                    console.error('Error fetching account data:', error);
+                }
+            });
+        }
+
+        function fetchTransactions(accountId) {
+            var selectedCategories = $('.transaction-category:checked').map(function() {
+                return this.value;
+            }).get().join(',');
+
+            $.ajax({
+                url: `/get_transactions/${accountId}/?categories=${selectedCategories}`,
+                method: 'GET',
+                success: function(response) {
+                    if (response && response.transactions) {
+                        var transactions = response.transactions;
+                        var transactionList = $('#transaction-list');
+                        transactionList.empty();
+
+                        transactions.forEach(function(transaction) {
+                            var row = `
+                                <tr class="style-301">
+                                    <td class="style-302">
+                                        <span class="style-303">${transaction.type}</span>
+                                    </td>
+                                    <td class="style-305">${transaction.booking_date_time}</td>
+                                    <td class="style-306">${transaction.description}</td>
+                                    <td class="style-307">${transaction.amount}</td>
+                                    <td class="style-308">${transaction.currency}</td>
+                                </tr>
+                            `;
+                            transactionList.append(row);
+                        });
+                    } else {
+                        console.error('No transactions found in response:', response);
+                    }
+                },
+                error: function(error) {
+                    console.error('Error fetching account transactions:', error);
+                }
+            });
+        }
+    });
+</script>
+<style>
+    .category-dropdown {
+        display: none;
+        position: absolute;
+        background-color: white;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        z-index: 1000;
+        padding: 10px;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+    #category-header {
+        position: relative;
+    }
+    #category-dropdown {
+        top: 100px;
+        left: 0;
+    }
+</style>
+{% endblock %}

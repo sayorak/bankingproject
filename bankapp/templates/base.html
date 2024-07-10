@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'bankapp/css/base.css' %}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>{% block title %}Название страницы{% endblock %}</title>
+</head>
+<body class="body-default">
+    <header>
+        <div class="header-wrapper">
+            <div class="header-content">
+                <div class="header-item"></div>
+                <div class="header-item"></div>
+                <div class="header-item"></div>
+                <div class="header-item"></div>
+                <div class="header-item"></div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="nav-logo"><a class="nav-logo-link" href="/"><img src="{% static 'bankapp/images/logoi.png' %}" alt="" width="60" class="nav-logo-img" /></a> </div>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="/" class="nav-link">
+                            <span class="nav-icon">
+                                <i class="material-icons addon">account_balance_wallet</i> </span> <span class="nav-text">Главная</span> </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="/profile" class="nav-link">
+                            <span class="nav-icon">
+                                <i class="material-icons addon">account_box</i> </span> <span class="nav-text">Кошельки</span> </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="/analytics" class="nav-link">
+                            <span class="nav-icon">
+                                <i class="material-icons addon">graphic_eq</i> </span> <span class="nav-text">Бюджеты</span> </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="style-9">
+        <div class="style-10">
+            <div class="style-11">
+                <div class="style-12">
+                    <div class="style-13">
+                        <div class="style-14">
+                            <div class="style-15"><a class="style-16" href="index.html"><img src="{% static 'bankapp/images/logoi.png' %}" alt="" width="40" class="style-17" /></a></div>
+
+                        </div>
+                        <div class="style-24">
+                            <div class="style-25" onclick="themeToggle()">
+                                <span class="style-26"><i class="style-27"></i></span> <span class="style-28"><i class="style-29"></i></span>
+                            </div>
+                            <div class="style-30">
+                                <div class="style-31 notifications-toggle">
+                                    <div class="style-32">
+                                        <span class="style-33"><i class="material-icons">notifications</i></span>
+                                    </div>
+                                </div>
+                                <div class="style-35 notifications-menu notification-container">
+                                    <h4 class="style-36">Недавние уведомления</h4>
+                                    <div class="style-37">
+                                        {% for notification in user.notifications.all %}
+            <a class="style-38" href="#">
+                <div class="style-39">
+                    <span class="style-40"><i class="style-41"></i></span>
+                    <div class="style-42">
+                        <p class="style-43">{{ notification.message }}</p>
+                        <span class="style-44">{{ notification.created_at }}</span>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="style-69">
+                                <div class="style-70 profile-toggle">
+                                    <div class="style-71"><span class="style-72"><i class="style-73 material-icons">person</i></span></div>
+                                </div>
+                                <div class="style-74 profile-menu">
+                                    <div class="style-75">
+                                        <div class="style-76">
+                                            <div class="style-79">
+                                                <h5 class="style-80">{{ user_name }}</h5> <span class="style-81">{{ user_email }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <form action="{% url 'logout' %}" method="post" style="display: inline;">
+                                        {% csrf_token %}
+                                        <button type="submit" class="style-91">
+                                            <span class="style-92"><i class="style-93"></i></span>
+                                            Выйти
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-social">
+                        <div class="footer-social-list">
+                            <ul class="social-icons">
+                                <li class="social-icon-item"><a href="#" class="social-icon-link"><i class="social-icon"></i></a></li>
+                                <li class="social-icon-item"><a href="#" class="social-icon-link"><i class="social-icon"></i></a></li>
+                                <li class="social-icon-item"><a href="#" class="social-icon-link"><i class="social-icon"></i></a></li>
+                                <li class="social-icon-item"><a href="#" class="social-icon-link"><i class="social-icon"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var notificationsToggle = document.querySelector('.notifications-toggle');
+        var notificationsMenu = document.querySelector('.notifications-menu');
+        var profileToggle = document.querySelector('.profile-toggle');
+        var profileMenu = document.querySelector('.profile-menu');
+
+        // Открытие/закрытие меню уведомлений
+        notificationsToggle.addEventListener('click', function() {
+            notificationsMenu.classList.toggle('show-menu');
+        });
+
+        // Открытие/закрытие меню профиля
+        profileToggle.addEventListener('click', function() {
+            profileMenu.classList.toggle('show-menu');
+        });
+
+        // Закрытие меню при клике вне области меню
+        document.addEventListener('mouseup', function(e) {
+            if (!notificationsMenu.contains(e.target) && !notificationsToggle.contains(e.target)) {
+                notificationsMenu.classList.remove('show-menu');
+            }
+            if (!profileMenu.contains(e.target) && !profileToggle.contains(e.target)) {
+                profileMenu.classList.remove('show-menu');
+            }
+        });
+        // Сортировка уведомлений по дате в порядке убывания
+        function sortNotifications() {
+            var container = document.querySelector('.notification-container');
+            var notifications = Array.from(container.querySelectorAll('.notification-item'));
+
+            notifications.sort(function(a, b) {
+                var dateA = new Date(a.querySelector('.style-44').innerText);
+                var dateB = new Date(b.querySelector('.style-44').innerText);
+                return dateB - dateA;
+            });
+
+            notifications.forEach(function(notification) {
+                container.appendChild(notification);
+            });
+        }
+
+        sortNotifications();
+    });
+</script>
+</html>
