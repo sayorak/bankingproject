@@ -831,7 +831,7 @@
             -webkit-box-direction: normal;
             flex-direction: column;
             min-width: 0px;
-            height: 618.8px;
+            height: 800px;
             color: rgb(113, 132, 173);
             overflow-wrap: break-word;
             -webkit-background-clip: border-box;
@@ -869,26 +869,26 @@
         }
 
         .style-175 {
-            padding: 20px;
-            background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
-            margin: 0px;
-            outline: rgb(113, 132, 173) none 0px;
-            -webkit-box-flex: 1;
-            flex: 1 1 auto;
-            color: rgb(113, 132, 173);
-            box-sizing: border-box;
-        }
+    padding: 20px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    margin: 0px;
+    outline: rgb(113, 132, 173) none 0px;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    color: rgb(113, 132, 173);
+    box-sizing: border-box;
+    height: 1200px; /* Увеличенная высота */
+}
+
 
         .style-176 {
-            display: block;
-            height: 200px;
-            width: 400px;
-            height: 200px;
-            width: 400px;
-            outline: rgb(113, 132, 173) none 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
+    display: block;
+    height: 400px; /* Увеличенная высота */
+    outline: rgb(113, 132, 173) none 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 
         .style-177 {
             margin: 16px 0px 0px;
@@ -1198,19 +1198,21 @@
         }
 
         .style-207 {
-            -webkit-box-flex: 0;
-            flex: 0 0 auto;
-            width: 66.6667%;
-            margin: 0px;
-            padding: 0px 15px;
-            outline: rgb(113, 132, 173) none 0px;
-            flex-shrink: 0;
-            max-width: 100%;
-            padding-right: 15px;
-            padding-left: 15px;
-            margin-top: 0px;
-            box-sizing: border-box;
-        }
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    width: 66.6667%;
+    margin: 0px;
+    padding: 0px 15px;
+    outline: rgb(113, 132, 173) none 0px;
+    flex-shrink: 0;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    height: 1000px; /* Увеличенная высота */
+}
+
 
         .style-208 {
             border: 0px solid rgb(229, 234, 239);
@@ -2750,3 +2752,67 @@
             padding: 0px;
             box-sizing: border-box;
         }
+    .styled-modal-content {
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fefefe;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.styled-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.apply-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+.filter-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 100px;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
+
+.summary-block {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0px solid rgb(229, 234, 239);
+    box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    height: 100px;
+}

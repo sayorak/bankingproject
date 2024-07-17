@@ -2337,3 +2337,111 @@
             padding: 0px;
             box-sizing: border-box;
         }
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.styled-select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.apply-button {
+    background-color: rgb(47, 44, 216);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.apply-button:hover {
+    background-color: rgb(47, 44, 200);
+}
+
+.filter-button {
+    background-color: rgb(47, 44, 216);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+/* Стиль для итогового блока */
+.summary-block {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0px solid rgb(229, 234, 239);
+    box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    height: 300px;
+}
+
+.summary-block p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.styled-modal-content {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.styled-select, .styled-date-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.custom-period {
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-left: 20px;
+}

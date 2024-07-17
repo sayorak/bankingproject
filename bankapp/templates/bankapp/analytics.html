@@ -23,33 +23,41 @@
                     <div class="style-161">
                         <div class="style-162">
                             <div class="style-163">
-                                <a href="/analytics" class="style-164">Аналитика</a> <a href="/analytics-expenses" class="style-165">Расходы</a> <a href="/analytics-income" class="style-166">Доходы</a> <a href="/analytics-transaction-history" class="style-169">История транзакций</a>
+                                <a href="/analytics" class="style-164">Аналитика</a>
+                                <a href="/analytics-expenses" class="style-165">Расходы</a>
+                                <a href="/analytics-transaction-history" class="style-169">Выписка</a>
                             </div>
                             <div class="style-170">
                                 <div class="style-171">
                                     <div class="style-172">
-                                        <div class="style-173"><span class="style-174"><i class="style-175"></i></span> </div>
+                                        <div class="style-173">
+                                            <span class="style-174"><i class="style-175"></i></span>
+                                        </div>
                                         <div class="style-176">
                                             <p class="style-177">Среднее за день</p>
-                                            <h3 class="style-178">$5470.36</h3>
+                                            <h3 class="style-178">${{ avg_per_day|floatformat:2 }}</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="style-179">
                                     <div class="style-180">
-                                        <div class="style-181"><span class="style-182"><i class="style-183"></i></span> </div>
+                                        <div class="style-181">
+                                            <span class="style-182"><i class="style-183"></i></span>
+                                        </div>
                                         <div class="style-184">
                                             <p class="style-185">Изменение</p>
-                                            <h3 class="style-186">+47.36%</h3>
+                                            <h3 class="style-186">{{ change_percentage|floatformat:2 }}%</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="style-187">
                                     <div class="style-188">
-                                        <div class="style-189"><span class="style-190"><i class="style-191"></i></span> </div>
+                                        <div class="style-189">
+                                            <span class="style-190"><i class="style-191"></i></span>
+                                        </div>
                                         <div class="style-192">
                                             <p class="style-193">Всего транзакций</p>
-                                            <h3 class="style-194">354</h3>
+                                            <h3 class="style-194">{{ total_transactions }}</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -59,15 +67,23 @@
                                             <span class="style-198"><i class="style-199"></i></span>
                                         </div>
                                         <div class="style-200">
-                                            <p class="style-201">Категории</p>
-                                            <h3 class="style-202">40</h3>
+                                            <p class="style-201">Количество типов транзакций</p>
+                                            <h3 class="style-202">{{ unique_transaction_types }}</h3>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="style-203">
                                     <div class="style-204">
                                         <div class="style-205">
-                                            <h4 class="style-206">Еженедельные расходы</h4>
+                                            <h4 class="style-206">Годовые расходы</h4>
+                                        </div>
+                                        <div class="style-215" style="margin-bottom: 20px;">
+                                            <label for="accountSelect">Выберите счет:</label>
+                                            <select id="accountSelect" onchange="changeAccount()" class="account-select">
+                                                {% for account in accounts %}
+                                                    <option value="{{ account.id }}" {% if account == selected_account %}selected{% endif %}>{{ account.formatted_card_number }}</option>
+                                                {% endfor %}
+                                            </select>
                                         </div>
                                         <div class="style-207">
                                             <div class="style-208">
@@ -77,7 +93,8 @@
                                                 <div class="style-211">
                                                     <div class="style-212"></div>
                                                 </div>
-                                            </div> <canvas height="368" width="1562" class="style-213"></canvas>
+                                            </div>
+                                            <canvas id="yearlyExpensesChart" height="368" width="1562" class="style-213"></canvas>
                                         </div>
                                     </div>
                                 </div>
@@ -89,4 +106,41 @@
         </div>
     </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('yearlyExpensesChart').getContext('2d');
+    const yearlyExpensesChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: {{ labels|safe }},
+            datasets: [{
+                label: 'Годовые расходы',
+                data: {{ data|safe }},
+                borderColor: 'rgba(75, 192, 192, 1)',
+                backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                fill: true,
+                tension: 0.4  // Set tension to make the line smooth
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    type: 'category',
+                    labels: {{ labels|safe }},
+                },
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    function changeAccount() {
+        const accountSelect = document.getElementById('accountSelect');
+        const selectedAccountId = accountSelect.value;
+        window.location.href = `?account=${selectedAccountId}`;
+    }
+</script>
 {% endblock %}

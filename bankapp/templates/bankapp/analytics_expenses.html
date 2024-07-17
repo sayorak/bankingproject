@@ -5,6 +5,7 @@
 {% block content %}
 {% load static %}
 <link rel="stylesheet" href="{% static 'bankapp/css/analytics_expenses.css' %}">
+<link rel="stylesheet" href="{% static 'bankapp/css/custom_styles.css' %}">
 <div class="style-8">
     <div class="style-145">
         <div class="style-146">
@@ -20,246 +21,177 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="style-161">
-                    <div class="style-162">
-                        <div class="style-163">
-                            <a href="/analytics" class="style-164">Аналитика</a> <a href="/analytics-expenses" class="style-165">Расходы</a> <a href="/analytics-income" class="style-166">Доходы</a> <a href="/analytics-transaction-history" class="style-169">История транзакций</a>
-                        </div>
-                        <div class="style-170">
-                            <div class="style-171">
-                                <div class="style-172">
-                                    <div class="style-173">
-                                        <h4 class="style-174">Разбивка расходов</h4>
-                                    </div>
-                                    <div class="style-175">
-                                        <canvas width="500" height="250" class="style-176"></canvas>
-                                        <div class="style-177">
-                                            <ul class="style-178">
-                                                <li class="style-179">
-                                                    <p class="style-180">Еда</p>
-                                                    <h5 class="style-181"><span class="style-182">$1200</span>38%</h5>
-                                                </li>
-                                                <li class="style-183">
-                                                    <p class="style-184">Транспорт</p>
-                                                    <h5 class="style-185"><span class="style-186">$1200</span>38%</h5>
-                                                </li>
-                                                <li class="style-187">
-                                                    <p class="style-188">Здравоохранение</p>
-                                                    <h5 class="style-189"><span class="style-190">$1200</span>38%</h5>
-                                                </li>
-                                                <li class="style-191">
-                                                    <p class="style-192">Образование</p>
-                                                    <h5 class="style-193"><span class="style-194">$1200</span>38%</h5>
-                                                </li>
-                                                <li class="style-195">
-                                                    <p class="style-196">Одежда</p>
-                                                    <h5 class="style-197"><span class="style-198">$1200</span>38%</h5>
-                                                </li>
-                                                <li class="style-199">
-                                                    <p class="style-200">Домашние животные</p>
-                                                    <h5 class="style-201"><span class="style-202">$1200</span>38%</h5>
-                                                </li>
-                                                <li class="style-203">
-                                                    <p class="style-204">Развлечения</p>
-                                                    <h5 class="style-205"><span class="style-206">$1200</span>38%</h5>
-                                                </li>
-                                            </ul>
-                                        </div>
+                    <div class="style-161">
+                        <div class="style-162">
+                            <div class="style-163">
+                                <a href="/analytics" class="style-164">Аналитика</a>
+                                <a href="/analytics-expenses" class="style-165">Расходы</a>
+                                <a href="/analytics-transaction-history" class="style-169">Выписка</a>
+                            </div>
+                            <div class="style-170">
+                                <div class="summary-block style-172">
+                                    <p>Номер счета: {{ selected_account.card_number }}</p>
+                                </div>
+                                <button id="accountButton" class="filter-button">Выбор счета</button>
+                                <div id="accountModal" class="modal">
+                                    <div class="modal-content styled-modal-content">
+                                        <span class="close">&times;</span>
+                                        <form id="accountForm" method="get" action="/analytics-expenses">
+                                            <div class="form-group">
+                                                <label for="account">Выберите счет:</label>
+                                                <select id="account" name="account" class="styled-select">
+                                                    {% for account in accounts %}
+                                                        <option value="{{ account.id }}" {% if account == selected_account %}selected{% endif %}>
+                                                            {{ account.account_id }}
+                                                        </option>
+                                                    {% endfor %}
+                                                </select>
+                                            </div>
+                                            <button type="submit" class="apply-button">Применить</button>
+                                        </form>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="style-207">
-                                <div class="style-208">
-                                    <div class="style-209">
-                                        <h4 class="style-210">История транзакций</h4>
-                                    </div>
-                                    <div class="style-211">
-                                        <div class="style-212">
-                                            <div class="style-213">
-                                                <table class="style-214">
-                                                    <thead class="style-215">
-                                                        <tr class="style-216">
-                                                            <th class="style-217">Категория</th>
-                                                            <th class="style-218">Дата</th>
-                                                            <th class="style-219">Описание</th>
-                                                            <th class="style-220">Сумма</th>
-                                                            <th class="style-221">Валюта</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody class="style-222">
-                                                        <tr class="style-223">
-                                                            <td class="style-224">
-                                                                <span class="style-225"><i class="style-226"></i>
-                                                                    Красота</span>
-                                                            </td>
-                                                            <td class="style-227">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-228">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-229">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-230">USD</td>
-                                                        </tr>
-                                                        <tr class="style-231">
-                                                            <td class="style-232">
-                                                                <span class="style-233"><i class="style-234"></i> Счета и
-                                                                    сборы</span>
-                                                            </td>
-                                                            <td class="style-235">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-236">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-237">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-238">USD</td>
-                                                        </tr>
-                                                        <tr class="style-239">
-                                                            <td class="style-240">
-                                                                <span class="style-241"><i class="style-242"></i>
-                                                                    Автомобиль</span>
-                                                            </td>
-                                                            <td class="style-243">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-244">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-245">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-246">USD</td>
-                                                        </tr>
-                                                        <tr class="style-247">
-                                                            <td class="style-248">
-                                                                <span class="style-249"><i class="style-250"></i>
-                                                                    Образование</span>
-                                                            </td>
-                                                            <td class="style-251">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-252">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-253">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-254">USD</td>
-                                                        </tr>
-                                                        <tr class="style-255">
-                                                            <td class="style-256">
-                                                                <span class="style-257"><i class="style-258"></i>
-                                                                    Развлечения</span>
-                                                            </td>
-                                                            <td class="style-259">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-260">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-261">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-262">USD</td>
-                                                        </tr>
-                                                        <tr class="style-263">
-                                                            <td class="style-264">
-                                                                <span class="style-265"><i class="style-266"></i>
-                                                                    Красота</span>
-                                                            </td>
-                                                            <td class="style-267">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-268">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-269">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-270">USD</td>
-                                                        </tr>
-                                                        <tr class="style-271">
-                                                            <td class="style-272">
-                                                                <span class="style-273"><i class="style-274"></i> Счета и
-                                                                    сборы</span>
-                                                            </td>
-                                                            <td class="style-275">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-276">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-277">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-278">USD</td>
-                                                        </tr>
-                                                        <tr class="style-279">
-                                                            <td class="style-280">
-                                                                <span class="style-281"><i class="style-282"></i>
-                                                                    Автомобиль</span>
-                                                            </td>
-                                                            <td class="style-283">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-284">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-285">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-286">USD</td>
-                                                        </tr>
-                                                        <tr class="style-287">
-                                                            <td class="style-288">
-                                                                <span class="style-289"><i class="style-290"></i>
-                                                                    Образование</span>
-                                                            </td>
-                                                            <td class="style-291">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-292">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-293">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-294">USD</td>
-                                                        </tr>
-                                                        <tr class="style-295">
-                                                            <td class="style-296">
-                                                                <span class="style-297"><i class="style-298"></i>
-                                                                    Развлечения</span>
-                                                            </td>
-                                                            <td class="style-299">
-                                                                12.12.2023
-                                                            </td>
-                                                            <td class="style-300">
-                                                                Продукты и напитки безалкогольные
-                                                            </td>
-                                                            <td class="style-301">
-                                                                -32.20
-                                                            </td>
-                                                            <td class="style-302">USD</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                <div class="style-171">
+                                    <div class="style-172">
+                                        <div class="style-173">
+                                            <h4 class="style-174">Разбивка расходов</h4>
+                                        </div>
+                                        <div class="style-175">
+                                            <canvas id="expenseBreakdownChart" width="500" height="250" class="style-176"></canvas>
+                                            <div class="style-177">
+                                                <ul class="style-178">
+                                                    {% for category in category_breakdown %}
+                                                        <li class="style-179">
+                                                            <p class="style-180">{{ category.type }}</p>
+                                                            <h5 class="style-181"><span class="style-182">${{ category.total_amount|floatformat:2 }}</span>{{ category.percentage|floatformat:2 }}%</h5>
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="style-207">
+                                    <div class="style-208">
+                                        <div class="style-209">
+                                            <h4 class="style-210">История транзакций</h4>
+                                        </div>
+                                        <div class="style-211">
+                                            <div class="style-212">
+                                                <div class="style-213">
+                                                    <table class="style-214">
+                                                        <thead class="style-215">
+                                                            <tr class="style-216">
+                                                                <th class="style-217">Категория</th>
+                                                                <th class="style-218">Дата</th>
+                                                                <th class="style-219">Описание</th>
+                                                                <th class="style-220">Сумма</th>
+                                                                <th class="style-221">Валюта</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody class="style-222">
+                                                            {% for transaction in transactions %}
+                                                                <tr class="style-223">
+                                                                    <td class="style-224">
+                                                                        <span class="style-225"><i class="style-226"></i> {{ transaction.translated_type }}</span>
+                                                                    </td>
+                                                                    <td class="style-227">
+                                                                        {{ transaction.booking_date_time|date:"d.m.Y" }}
+                                                                    </td>
+                                                                    <td class="style-228">
+                                                                        {{ transaction.description }}
+                                                                    </td>
+                                                                    <td class="style-229">
+                                                                        {{ transaction.amount|floatformat:2 }}
+                                                                    </td>
+                                                                    <td class="style-230">{{ transaction.currency }}</td>
+                                                                </tr>
+                                                            {% endfor %}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- style-171 -->
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> <!--  -->
+                    </div> <!-- style-162 -->
+                </div> <!-- style-161 -->
+            </div> <!-- style-146 -->
+        </div> <!-- style-145 -->
+    </div> <!-- style-8 -->
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    const ctx = document.getElementById('expenseBreakdownChart').getContext('2d');
+    const expenseBreakdownChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: {{ chart_labels|safe }},
+            datasets: [{
+                data: {{ chart_data|safe }},
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(199, 199, 199, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(199, 199, 199, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Разбивка расходов'
+                }
+            }
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const accountButton = document.getElementById('accountButton');
+        const accountModal = document.getElementById('accountModal');
+        const closeAccountButton = accountModal.querySelector('.close');
+
+        accountModal.style.display = 'none';
+
+        const closeAllModals = () => {
+            accountModal.style.display = 'none';
+        };
+
+        accountButton.addEventListener('click', () => {
+            closeAllModals();
+            accountModal.style.display = 'block';
+        });
+
+        closeAccountButton.addEventListener('click', () => {
+            accountModal.style.display = 'none';
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target == accountModal) {
+                accountModal.style.display = 'none';
+            }
+        });
+    });
+</script>
 {% endblock %}
