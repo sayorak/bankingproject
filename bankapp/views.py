@@ -9,7 +9,7 @@ from django.utils.timezone import make_aware, now
 from accounts.models import Profile
 from django.views.decorators.csrf import csrf_exempt
 
-from .models import Account, Transaction, Notification
+from .models import Account, Transaction, Notification, Goal
 from datetime import datetime
 from django.utils.dateparse import parse_date
 from django.db.models import Sum
@@ -384,6 +384,28 @@ def profile_view(request):
     }
     Notification.objects.create(user=request.user, message='Посетил свою страницу профиля')
     return render(request, 'bankapp/profile.html', context)
+
+@login_required
+def goals_view(request):
+    goals = Goal.objects.filter(user=request.user)
+    for goal in goals:
+        if goal.target_amount > 0:
+            goal.progress = (goal.current_amount / goal.target_amount) * 100
+        else:
+            goal.progress = 0
+    context = {
+        'goals': goals
+    }
+    return render(request, 'bankapp/goals.html', context)
+
+@login_required
+def add_goal_view(request):
+    goals = Goal.objects.filter(user=request.user)
+    context = {
+        'goals': goals
+    }
+    return render(request, 'bankapp/goals.html', context)
+
 #=========================ФУНКЦИИ ДЛЯ ПРОГРУЗКИ СТРАНИЦ=====================================
 
 import random

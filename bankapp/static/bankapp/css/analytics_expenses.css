@@ -1211,6 +1211,7 @@
     margin-top: 0px;
     box-sizing: border-box;
     height: 1000px; /* Увеличенная высота */
+    align-content: top;
 }
 
 
@@ -2752,6 +2753,16 @@
             padding: 0px;
             box-sizing: border-box;
         }
+        .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 160px;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
     .styled-modal-content {
     padding: 20px;
     border-radius: 8px;
@@ -2779,7 +2790,7 @@
 }
 
 .apply-button {
-    background-color: #007bff;
+    background-color: rgb(47, 44, 216);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -2788,31 +2799,31 @@
 }
 
 .apply-button:hover {
-    background-color: #0056b3;
+    background-color: rgb(47, 44, 200);
 }
 
 .filter-button {
-    background-color: #007bff;
+    background-color: rgb(47, 44, 216);
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin: 10px 0;
-    height: 100px;
+    margin: 0;
+    height: 50px;
+    width: 200px;
+    display: inline-block;
 }
 
 .filter-button:hover {
-    background-color: #0056b3;
+    background-color: rgb(47, 44, 200);
 }
 
 .summary-block {
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     padding: 20px;
-    margin: 15px;
-    border-radius: 6px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 0px solid rgb(229, 234, 239);
-    box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+    margin-bottom: 10px;
     height: 100px;
+    width: 300px;
+    display: inline-block;
 }

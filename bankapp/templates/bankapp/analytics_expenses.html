@@ -29,28 +29,6 @@
                                 <a href="/analytics-transaction-history" class="style-169">Выписка</a>
                             </div>
                             <div class="style-170">
-                                <div class="summary-block style-172">
-                                    <p>Номер счета: {{ selected_account.card_number }}</p>
-                                </div>
-                                <button id="accountButton" class="filter-button">Выбор счета</button>
-                                <div id="accountModal" class="modal">
-                                    <div class="modal-content styled-modal-content">
-                                        <span class="close">&times;</span>
-                                        <form id="accountForm" method="get" action="/analytics-expenses">
-                                            <div class="form-group">
-                                                <label for="account">Выберите счет:</label>
-                                                <select id="account" name="account" class="styled-select">
-                                                    {% for account in accounts %}
-                                                        <option value="{{ account.id }}" {% if account == selected_account %}selected{% endif %}>
-                                                            {{ account.account_id }}
-                                                        </option>
-                                                    {% endfor %}
-                                                </select>
-                                            </div>
-                                            <button type="submit" class="apply-button">Применить</button>
-                                        </form>
-                                    </div>
-                                </div>
                                 <div class="style-171">
                                     <div class="style-172">
                                         <div class="style-173">
@@ -71,7 +49,28 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="style-207">
+                                    <div class="summary-block">
+                                        <p>Номер счета: {{ selected_account.card_number }}</p>
+                                    </div>
+                                    <button id="accountButton" class="filter-button">Выбор счета</button>
+                                    <div id="accountModal" class="modal">
+                                        <div class="modal-content styled-modal-content">
+                                            <span class="close">&times;</span>
+                                            <form id="accountForm" method="get" action="/analytics-transaction-history">
+                                                <div class="form-group">
+                                                    <label for="account">Выберите счет:</label>
+                                                    <select id="account" name="account" class="styled-select">
+                                                        {% for account in accounts %}
+                                                            <option value="{{ account.account_id }}" {% if account == selected_account %}selected{% endif %}>{{ account.card_number }}</option>
+                                                        {% endfor %}
+                                                    </select>
+                                                </div>
+                                                <button type="submit" class="apply-button">Применить</button>
+                                            </form>
+                                        </div>
+                                    </div>
                                     <div class="style-208">
                                         <div class="style-209">
                                             <h4 class="style-210">История транзакций</h4>

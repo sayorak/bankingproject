@@ -77,8 +77,8 @@
                                         <div class="style-205">
                                             <h4 class="style-206">Годовые расходы</h4>
                                         </div>
-                                        <div class="style-215" style="margin-bottom: 20px;">
-                                            <label for="accountSelect">Выберите счет:</label>
+                                        <div class="style-205" style="margin-bottom: 20px;">
+                                            <label for="accountSelect" class="account-label">Выберите счет:</label>
                                             <select id="accountSelect" onchange="changeAccount()" class="account-select">
                                                 {% for account in accounts %}
                                                     <option value="{{ account.id }}" {% if account == selected_account %}selected{% endif %}>{{ account.formatted_card_number }}</option>

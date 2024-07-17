@@ -50,3 +50,15 @@ class Notification(models.Model):
 class NotificationManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().order_by('-created_at')
+
+class Goal(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    account = models.ForeignKey(Account, on_delete=models.CASCADE, related_name='goals')
+    name = models.CharField(max_length=255)
+    target_amount = models.FloatField()
+    current_amount = models.FloatField(default=0.0)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return self.name

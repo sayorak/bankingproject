@@ -727,7 +727,7 @@
         .style-205 {
             display: flex;
             -webkit-box-pack: justify;
-            justify-content: space-between;
+            justify-content: left;
             -webkit-box-align: center;
             align-items: center;
             border-bottom: 0px solid rgb(229, 234, 239);
@@ -841,3 +841,24 @@
             box-sizing: border-box;
             animation: 0.001s ease 0s 1 normal none running chartjs-render-animation;
         }
+        .account-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+.account-select {
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.account-select:focus {
+    border-color: #007bff;
+    outline: none;
+}
