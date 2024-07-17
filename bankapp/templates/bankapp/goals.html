@@ -5,6 +5,51 @@
 {% block content %}
 {% load static %}
 <link rel="stylesheet" href="{% static 'bankapp/css/goals.css' %}">
+<style>
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 600px;
+        position: relative;
+    }
+
+    .close {
+        color: #aaa;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .clickable {
+        cursor: pointer;
+    }
+</style>
+
 <div class="style-8">
     <div class="style-145">
         <div class="style-146">
@@ -45,18 +90,21 @@
                                 {% endfor %}
                             </div>
                         </div>
-                        <div class="style-206">
-                            <h5 class="style-207">Add new goals</h5>
-                            <a href="{% url 'add_goal' %}" class="style-208">
+                        <div class="style-206" id="add-goal-block" style="cursor: pointer;">
+                            <h5 class="style-207">Добавить новую цель</h5>
+                            <span class="style-208">
                                 <i class="style-209"></i>
-                            </a>
+                            </span>
                         </div>
                     </div>
                     <div class="style-210">
                         {% for goal in goals %}
                         <div class="style-211" role="tabpanel" id="{{ goal.id }}">
                             <div class="style-213">
-                                <h3 class="style-214">{{ goal.name }}</h3>
+                                <h3 class="style-214">{{ goal.name }}</h что можно исправить, чтобы решить данную проблему }} ></h3>
+                            </div>
+                            <div class="style-213 clickable" onclick="openAddFundsModal('{{ goal.id }}')">
+                                <h3 class="style-214">Пополнить цель</h3>
                             </div>
                             <div class="style-215">
                                 <div class="style-216">
@@ -64,12 +112,12 @@
                                         <div class="style-218">
                                             <div class="style-219">
                                                 <div class="style-220">
-                                                    <span class="style-221">Saved</span>
+                                                    <span class="style-221">Накоплено</span>
                                                     <h3 class="style-222">{{ goal.current_amount|floatformat:2 }}</h3>
                                                 </div>
                                                 <div class="style-223">
-                                                    <span class="style-224">Goals</span>
-                                                    <h3 class="style-225">{{ goal.target_amount|floatformat:2 }}</h3>
+                                                    <span class="style-224">Финальная сумма</span>
+                                                    <h3 class="style-225">{{ goal.target_amount|floatformat:2 }}</h что можно исправить, чтобы решить данную проблему }} ></h3>
                                                 </div>
                                             </div>
                                             <div class="style-226">
@@ -91,4 +139,112 @@
         </div>
     </div>
 </div>
+
+<!-- Модальное окно для добавления новой цели -->
+<div id="addGoalModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form method="post" action="{% url 'goals' %}">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="id_account" class="form-label">Счет</label>
+                <select id="id_account" name="account" class="form-control" required>
+                    {% for account in accounts %}
+                    <option value="{{ account.account_id }}">{{ account.card_number }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="id_name" class="form-label">Название цели</label>
+                <input type="text" id="id_name" name="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="id_target_amount" class="form-label">Сумма цели</label>
+                <input type="number" id="id_target_amount" name="target_amount" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="id_currency" class="form-label">Курс</label>
+                <input type="text" id="id_currency" name="currency" class="form-control" readonly>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Добавить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Модальное окно для пополнения цели -->
+<div id="addFundsModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form method="post" action="{% url 'add_funds' %}">
+            {% csrf_token %}
+            <input type="hidden" id="goal_id" name="goal_id">
+            <div class="mb-3">
+                <label for="add_amount" class="form-label">Сумма пополнения</label>
+                <input type="number" id="add_amount" name="add_amount" class="form-control" required>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">Пополнить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const accountSelect = document.querySelector('#id_account');
+    const currencyInput = document.querySelector('#id_currency');
+    const addGoalBlock = document.querySelector('#add-goal-block');
+    const addGoalModal = document.getElementById('addGoalModal');
+    const addFundsModal = document.getElementById('addFundsModal');
+    const closeModalButtons = document.querySelectorAll('.close');
+
+    accountSelect.addEventListener('change', function() {
+        const selectedAccountId = this.value;
+        if (selectedAccountId) {
+            fetch(`/get_account_data/${selectedAccountId}/`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.data) {
+                        currencyInput.value = data.data.currency;
+                    } else {
+                        currencyInput.value = 'Не удалось загрузить данные курса';
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка:', error);
+                    currencyInput.value = 'Ошибка загрузки курса';
+                });
+        } else {
+            currencyInput.value = '';
+        }
+    });
+
+    addGoalBlock.addEventListener('click', function() {
+        addGoalModal.style.display = 'block';
+    });
+
+    closeModalButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            addGoalModal.style.display = 'none';
+            addFundsModal.style.display = 'none';
+        });
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === addGoalModal || event.target === addFundsModal) {
+            addGoalModal.style.display = 'none';
+            addFundsModal.style.display = 'none';
+        }
+    });
+});
+
+function openAddFundsModal(goalId) {
+    const addFundsModal = document.getElementById('addFundsModal');
+    const goalIdInput = document.getElementById('goal_id');
+    goalIdInput.value = goalId;
+    addFundsModal.style.display = 'block';
+}
+</script>
 {% endblock %}

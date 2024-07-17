@@ -760,6 +760,8 @@
             margin: 0px 0px 30px;
             outline: rgb(113, 132, 173) none 0px;
             box-sizing: border-box;
+            display: inline-block;
+            width: 49%;
         }
 
         .style-214 {

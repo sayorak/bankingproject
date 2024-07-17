@@ -1,7 +1,7 @@
 import datetime
 from django.contrib.auth.decorators import login_required
 from django.http import JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 import requests
 from django.db import models  # Import models
 from django.utils.timezone import make_aware, now
@@ -145,7 +145,7 @@ def analytics_expenses_view(request):
     selected_account_id = request.GET.get('account')
     selected_account = accounts.first()  # Default to the first account if none is selected
     if selected_account_id:
-        selected_account = Account.objects.get(id=selected_account_id)
+        selected_account = Account.objects.get(account_id=selected_account_id)
 
     # Format card numbers
     for account in accounts:
@@ -155,7 +155,7 @@ def analytics_expenses_view(request):
             account.formatted_card_number = account.account_id
 
     # Get all transactions for the selected account
-    transactions = Transaction.objects.filter(account=selected_account)
+    transactions = Transaction.objects.filter(account=selected_account).exclude(type='INCOME').order_by('-booking_date_time')
 
     # Translate categories to Russian
     category_translation = {
@@ -385,16 +385,31 @@ def profile_view(request):
     Notification.objects.create(user=request.user, message='Посетил свою страницу профиля')
     return render(request, 'bankapp/profile.html', context)
 
+
 @login_required
 def goals_view(request):
+    user = request.user
+    if request.method == 'POST':
+        account_id = request.POST.get('account')
+        name = request.POST.get('name')
+        target_amount = request.POST.get('target_amount')
+
+        account = Account.objects.get(id=account_id)
+        Goal.objects.create(user=request.user, account=account, name=name, target_amount=target_amount)
+        return redirect('goals')
+
     goals = Goal.objects.filter(user=request.user)
+    accounts = Account.objects.all()
     for goal in goals:
         if goal.target_amount > 0:
             goal.progress = (goal.current_amount / goal.target_amount) * 100
         else:
             goal.progress = 0
     context = {
-        'goals': goals
+        'goals': goals,
+        'user_name': user.get_full_name() or user.username,  # Use full name if available, otherwise username
+        'user_email': user.email,
+        'accounts': accounts,
     }
     return render(request, 'bankapp/goals.html', context)
 
@@ -450,7 +465,7 @@ def get_transactions(request, account_id):
 @csrf_exempt
 def get_account_data(request, account_id):
     try:
-        account = Account.objects.get(account_id=account_id)
+        account = Account.objects.get(account_id = account_id)
         data = {
             'current_balance': account.current_balance,
             'available_balance': account.available_balance,
@@ -464,3 +479,12 @@ def get_account_data(request, account_id):
     except Account.DoesNotExist:
         return JsonResponse({'error': 'Account not found.'}, status=404)
 
+@csrf_exempt
+def add_funds(request):
+    if request.method == 'POST':
+        goal_id = request.POST.get('goal_id')
+        add_amount = float(request.POST.get('add_amount'))
+        goal = Goal.objects.get(id=goal_id)
+        goal.current_amount += add_amount
+        goal.save()
+        return redirect('goals')

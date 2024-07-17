@@ -680,6 +680,7 @@
             margin-right: -15px;
             margin-left: -15px;
             box-sizing: border-box;
+            width: 100%;
         }
 
         .style-162 {
@@ -731,7 +732,6 @@
             -webkit-box-direction: normal;
             flex-direction: column;
             min-width: 0px;
-            height: 506.8px;
             color: rgb(113, 132, 173);
             overflow-wrap: break-word;
             -webkit-background-clip: border-box;
