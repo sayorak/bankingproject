@@ -29,17 +29,21 @@
                             <a href="/analytics-transaction-history" class="style-169">Выписка</a>
                         </div>
                         <div class="style-170">
-                            <div class="summary-block style-172">
+                            <div class="summary-block">
                                 <p>Номер счета: {{ selected_account.card_number }}</p>
                                 <p>Период: {% if start_date and end_date %}{{ start_date|date:"d.m.Y" }} - {{ end_date|date:"d.m.Y" }}{% else %}Весь период{% endif %}</p>
-                                <p>Баланс на начало периода: {{ initial_balance|floatformat:2 }}</p>
+                            </div>
+                            <div class="summary-block">
                                 <p>Поступления на счет: {{ income_total|floatformat:2 }}</p>
                                 <p>Расходование денежных средств: {{ expense_total|floatformat:2 }}</p>
+                            </div>
+                            <div class="summary-block">
+                                <p>Баланс на начало периода: {{ initial_balance|floatformat:2 }}</p>
                                 <p>Остаток на конец периода: {{ final_balance|floatformat:2 }}</p>
                             </div>
                             <button id="filterButton" class="filter-button">Фильтр</button>
                             <button id="accountButton" class="filter-button">Выбор счета</button>
-                            <div id="filterModal" class="modal">
+                            <div id="filterModal" class="modal-content">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
                                     <form id="filterForm" method="get" action="/analytics-transaction-history">

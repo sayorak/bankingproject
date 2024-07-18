@@ -2339,16 +2339,25 @@
         }
 
 .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 500px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.5);
-}
-
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            border-radius: 10px;
+            width: 210px;
+            max-width: 500px;
+            box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        }
+.styled-modal-content {
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin-left: 70%;
+            margin-top: 10%;
+            background-color: #fefefe;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            height: 20%;
+        }
 .close {
     color: #aaa;
     float: right;
@@ -2400,21 +2409,24 @@
     cursor: pointer;
     font-size: 16px;
     text-align: center;
-    height: 100%;
-    margin-left: 5%;
-    margin-top: 5%;
+    height: 100px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 /* Стиль для итогового блока */
 .summary-block {
     background-color: #f9f9f9;
     padding: 20px;
-    margin: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 0px solid rgb(229, 234, 239);
     box-shadow: rgba(145, 158, 171, 0.3) 0px 0px 2px 0px, rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
-    height: 300px;
+    height: 120px;
 }
 
 .summary-block p {
