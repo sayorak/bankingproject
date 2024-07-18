@@ -394,7 +394,7 @@ def goals_view(request):
         name = request.POST.get('name')
         target_amount = request.POST.get('target_amount')
 
-        account = Account.objects.get(id=account_id)
+        account = Account.objects.get(account_id=account_id)
         Goal.objects.create(user=request.user, account=account, name=name, target_amount=target_amount)
         return redirect('goals')
 
